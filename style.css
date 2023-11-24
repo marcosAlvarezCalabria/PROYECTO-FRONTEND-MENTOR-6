@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    background-color: var(--LightGrayishBlue);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  
+}
+:root{
+--VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+--DesaturatedDarkBlue: hsl(214, 17%, 51%);
+--GrayishBlue: hsl(212, 23%, 69%);
+--LightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+.imagen{
+    width: 330px;
+    height: 197px;
+    margin:30px auto 0px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+.container{
+    width: 330px;
+    background-color:white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:0px 0px  20px 20px;
+}
+
+
+.encabezado{
+    width: 256px;
+    text-align: start;
+    
+    margin: 40px 30px 0px 30px ;
+
+}
+
+.parrafo{
+    width: 256px;
+    height: 95px;
+    text-align: start;
+    margin: 20px ;
+    color: var(--GrayishBlue); 
+    line-height: 20px;
+
+
+}
+
+.michelle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;  
+ 
+}
+
+.name-date-button{
+    width: 256px;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+    
+
+}
+
+.name-date-button span{
+    color: black;
+    font-weight: 600;
+    
+}
+
+.name-date-button p{
+    height: 50px;
+    width: 120px;
+ 
+    color: var(--GrayishBlue);
+    text-align: start;
+    margin-right: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+   
+}
+.name-date-button button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px transparent;
+    
+}
+.name-date-button button:hover{
+    cursor: pointer;
+}
+/*---------------------------cartel--------------------------------*/
+.cartel{
+    width: 330px;
+    height: 65px;
+    background-color:var(--VeryDarkGrayishBlue);
+    border-radius: 0px 0px 20px 20px ;
+    display: flex;
+    flex-direction: row;
+    display: none;
+    align-items: center;
+      
+}
+
+.cartel button{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color:var(--LightGrayishBlue);
+    margin-left: 46px;
+    
+    
+    
+    }
+    button:hover{
+        cursor: pointer;
+    }
+
+.share{
+    width: 60px ;
+    color: var(--GrayishBlue);
+    text-transform: uppercase;
+    letter-spacing:3px ;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.img-cartel{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+footer{
+    margin-top: 20px;
+}
+    
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*--------------------------800px----------------------------*/
+@media only screen and (min-width: 800px){
+
+    .container{
+        width: 430px;
+        
+    }
+    .imagen{
+        width: 430px;
+    }
+    
+    .encabezado{
+        width: 356px;
+    }
+
+    .parrafo{
+        width: 356px;
+        height: 95px;
+        
+    }
+    
+    .name-date-button{
+        width: 356px;
+           
+    }
+    .cartel{
+        width: 430px;
+           
+    }
+    .cartel button{   
+        margin-left: 146px;
+           
+        }
+    
+    .share{
+        
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .img-cartel{
+        margin-right: 20px;}
+}
+/***************************************1440px*************************/
+
+@media only screen and (min-width: 1440px){
+  
+        
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+ 
+   
+    
+}
+      
+    
+
+    
+    .container{
+        width: 440px;
+        height: 280px;
+        position: absolute;
+        
+        top: 25%;
+        left: 45%;
+        border: solid transparent ;
+        border-radius: 0px 20px 20px 0px;
+    
+        
+    }
+    .imagen{
+        width: 280px;
+        height: 283px;
+       margin:  auto;
+       position: absolute;
+       top: 25%;
+        right: 54%;
+        border: solid transparent;
+        border-radius: 20px 0px 0px 20px;
+
+    }
+    .encabezado{
+        width: 356px;
+    }
+
+    .parrafo{
+        width: 356px;
+        height: 95px;
+    }
+    
+    .name-date-button{
+        width: 356px;
+           
+    }
+    
+
+    .cartel{
+        width: 250px;
+        height:55px;
+        background-color:var(--VeryDarkGrayishBlue);
+        border-radius: 20px ;
+        display: flex;
+        flex-direction: row;
+       
+        align-items: center;
+        position: absolute;
+        left: 256px;
+        bottom: 110px;
+          
+    }
+    .cartel{
+        display: none
+    };
+    
+    .cartel button{
+        display: none;
+    }
+    
+    
+    .share{
+        width: 60px ;
+        color: var(--GrayishBlue);
+        text-transform: uppercase;
+        letter-spacing:3px ;
+        font-size: 12px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .img-cartel{
+        
+        
+    }
+    .triangulo{
+        width: 0;
+        height: 0;
+        border-right: 20px  solid transparent;
+        border-top: 20px  solid var(--VeryDarkGrayishBlue);
+        border-left: 20px  solid transparent;
+        border-bottom: 60px  solid transparent;
+        position: absolute;
+        top: 55px;
+        right: 105px;
+   }
+   
+    
+    
+    
+    
+
+footer{
+    
+    position: absolute;
+        
+    top: 90%;
+    left: 40%;
+    
+}}
