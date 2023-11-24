@@ -22,17 +22,17 @@ enlace1.addEventListener("click", (event) => {
   
 
   cartel.style.display = "none";
-  michelle.style.display = "block";
+  
 });
 enlace2.addEventListener("click", (event) => {
   console.log("hola");
 
   cartel.style.display = "none";
-  michelle.style.display = "block";
+  
 });
 enlace3.addEventListener("click", (event) => {
   console.log("hola");
 
   cartel.style.display = "none";
-  michelle.style.display = "block";
+  
 });
