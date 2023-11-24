@@ -20,19 +20,22 @@ function probar() {
 
 enlace1.addEventListener("click", (event) => {
   
-
-  cartel.style.display = "none";
+    michelle.style.display = "";
+    cartel.style.display = "none";
+    console.log("hhhhhhj")
   
-});
+})
 enlace2.addEventListener("click", (event) => {
-  console.log("hola");
-
-  cartel.style.display = "none";
   
-});
+    michelle.style.display = "";
+    cartel.style.display = "none";
+    console.log("hhhhhhj")
+  
+})
 enlace3.addEventListener("click", (event) => {
-  console.log("hola");
-
-  cartel.style.display = "none";
   
-});
+    michelle.style.display = "";
+    cartel.style.display = "none";
+    console.log("hhhhhhj")
+  
+})
