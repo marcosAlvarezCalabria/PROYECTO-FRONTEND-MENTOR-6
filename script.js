@@ -10,7 +10,7 @@ accion.addEventListener("mouseover", probar);
 function probar() {
   var anchoVentana = window.innerWidth;
 
-  if (anchoVentana < 1440) {
+  if (anchoVentana < 1140) {
     cartel.style.display = "block";
     michelle.style.display = "none";
   } else {
