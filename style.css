@@ -125,7 +125,7 @@ body{
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    background-color:var(--LightGrayishBlue);
+    
     margin-left: 46px;
     
     
@@ -199,9 +199,9 @@ footer{
     .img-cartel{
         margin-right: 20px;}
 }
-/***************************************1440px*************************/
+/***************************************1140px*************************/
 
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 1140px){
   
         
 body{
@@ -272,9 +272,7 @@ body{
         display: none
     };
     
-    .cartel button{
-        display: none;
-    }
+    
     
     
     .share{
@@ -286,10 +284,7 @@ body{
         margin-left: 30px;
         margin-right: 10px;
     }
-    .img-cartel{
-        
-        
-    }
+    
     .triangulo{
         width: 0;
         height: 0;
@@ -302,7 +297,17 @@ body{
         right: 105px;
    }
    
+   .cartel button{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: none;
+    margin-left: 46px;
     
+    
+    
+    }
     
     
     
